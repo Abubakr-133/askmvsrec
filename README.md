@@ -94,7 +94,7 @@ ASK-MVSREC is a college-specific Question & Answer and Discussion platform for s
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/your-username/ask-mvsrec.git
+   git clone https://github.com/Abubakr-133/askmvsrec
 2.Create the askmvsrec database and its five tables as below:
   -- Create the database
 CREATE DATABASE IF NOT EXISTS ask_mvsrec;
