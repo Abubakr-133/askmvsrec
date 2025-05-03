@@ -147,3 +147,42 @@ CREATE TABLE IF NOT EXISTS Answers (
     FOREIGN KEY (roll_number) REFERENCES Users(roll_number)
 );
 3.Open Xampp,start the apache server and mysql database and search for the results on localhost
+
+## 🌐 Live Website
+
+The project is hosted online and publicly accessible here:  
+👉 [https://askmvsrec.rf.gd](https://askmvsrec.rf.gd)
+
+This URL points to the live deployment of the ASK-MVSREC platform, where students of MVSR Engineering College can interact by posting questions, participating in discussions, and answering peer queries in real time.
+
+---
+
+### 🔧 Hosting Platform: InfinityFree
+
+The platform is deployed using **InfinityFree**, a free web hosting service. The key reasons for choosing InfinityFree are:
+
+- **Free hosting with unlimited bandwidth**
+- **PHP & MySQL support**, which fits our project stack
+- **Easy cPanel and file manager access**
+- **No forced ads on website**
+- Suitable for student/academic projects and prototypes
+
+---
+
+### 🛠 Deployment Notes
+
+- Files were uploaded to the `htdocs` folder via the InfinityFree **File Manager** or using an FTP client like **FileZilla**.
+- Database was set up via **phpMyAdmin** provided by InfinityFree’s control panel.
+- Custom domain used: `askmvsrec.rf.gd`
+- Email verification using PHP Mailer may requires configuration due to restrictions on PHP `mail()` function in free hosting. Uses SMTP for mailing.
+
+---
+
+### 🧪 Testing Instructions
+
+To test the website live:
+1. Visit the link: [https://askmvsrec.rf.gd](https://askmvsrec.rf.gd)
+2. Use your **college roll number** to log in (e.g., `245122733133`)
+3. An OTP will be sent to `rollno@mvsrec.edu.in`
+4. Enter the OTP to verify and access the platform
+5. Explore posting, asking questions, and replying with answers
